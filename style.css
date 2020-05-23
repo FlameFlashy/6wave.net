@@ -2,10 +2,12 @@
 
 body {
   display: flex;
-  background: lightgrey;
+  background: rgb(245, 245, 245);
   margin: 0px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  font-size: 20px;
+  color: #828282;
 }
 
 .left-aside {
@@ -17,8 +19,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
-  color: #ffffff;
+  min-width: 300px;
   max-width: 300px;
+  color: #fff;
   padding: 24px;
   padding-bottom: 0px;
   min-height: 100vh;
@@ -37,6 +40,7 @@ body {
 }
 
 .left-aside p {
+  color: #fff;
   font-size: 20px;
 }
 
@@ -100,4 +104,78 @@ body {
   margin: 4px 0px;
   font-size: 20px;
   font-weight: 300;
+}
+
+main {
+  width: 100%;
+}
+
+.top-block {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 80px 40px;
+}
+
+.top-block .title {
+  font-weight: 300;
+  color: #353535;
+  font-size: 36px;
+}
+
+p {
+  font-weight: 400;
+  color: #828282;
+}
+
+.calendar {
+  display: flex;
+  flex-direction: column;
+  color: #000000;
+  margin-top: 36px;
+}
+
+.event {
+  display: flex;
+  align-items: center;
+  padding: 50px 80px 40px;
+  border-bottom: 1px solid #cecece;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 180px;
+  font-weight: 300;
+}
+
+.numbers {
+  font-size: 60px;
+}
+
+.infos-date {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 84px;
+  min-height: 96px;
+}
+}
+
+.days {
+  font-size: 18px;
+}
+.Name-event {
+  padding: 5px 0px;
+}
+
+.Name-event a {
+  text-decoration: none;
+  color: #005389;
+  font-size: 24px;
+}
+
+.location {
+  font-size: 16px;
 }
