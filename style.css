@@ -7,7 +7,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   color: #828282;
-  line-height: 1.5;
+  line-height: 1.15;
 }
 .main-wraper {
   display: flex;
@@ -55,7 +55,7 @@ body {
 
 .left-aside ul li {
   font-size: 16px;
-  margin-bottom: 1.5em;
+  margin-bottom: 16px;
   list-style-image: url(./img/geo-icon.png);
 }
 
@@ -104,7 +104,7 @@ body {
 .url-social a {
   text-decoration: none;
   color: #56ccf2;
-  margin: 4px 0px;
+  margin-bottom: 4px;
   font-size: 16px;
   font-weight: 300;
 }
@@ -128,6 +128,7 @@ main {
 p {
   font-weight: 400;
   color: #828282;
+  line-height: 24px;
 }
 
 .calendar {
@@ -235,11 +236,70 @@ p {
   line-height: 24px;
 }
 
-/* @media (max-width: 480px) {
+@media (max-width: 480px) {
+  .left-aside {
+    max-width: 100vw;
+    padding: 24px;
+  }
+
+  .top-block {
+    padding: 24px;
+  }
+
   .main-wraper {
     flex-direction: column;
   }
+
+  .calendar {
+    margin: 0px;
+  }
+
+  .calendar .event {
+    padding: 24px;
+    align-items: baseline;
+  }
+
+  .calendar .date {
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: flex-start;
+  }
+
+  .numbers {
+    font-size: 32px;
+    padding-right: 6px;
+  }
+
+  .infos-date {
+    padding: 0px;
+  }
+
   .event {
     flex-direction: column;
   }
-} */
+
+  .send-block {
+    flex-direction: column;
+    padding: 70px 24px;
+  }
+
+  .send-block .text-info {
+    padding-bottom: 24px;
+  }
+
+  .send-block .input-block input {
+    max-width: 200px;
+  }
+
+  .Notes {
+    padding: 24px;
+  }
+
+  .Notes .Notes-head {
+    margin-bottom: 20px;
+  }
+
+  .Notes .italic-paragraf {
+    margin-top: 0px;
+  }
+}
