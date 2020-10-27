@@ -2,6 +2,10 @@
 
 body {
   font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.15;
+  min-height: 100vh;
 }
 
 .asside {
@@ -10,6 +14,8 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top center;
+  color: #fff;
+  padding-left: 24px;
 }
 
 .logo-wrap {
@@ -19,4 +25,179 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+  padding: 12px 0 12px 30px;
+  background: url(../img/geo-icon.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.register-button {
+  max-width: 240px;
+  height: 48px;
+  background: linear-gradient(90deg, #01F695 0.01%, #10D7A8 36.86%, #2D9ACF 100.02%);
+  color: #fff;
+  border-radius: 3px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s;
+}
+
+.register-button:hover {
+  background: linear-gradient(-90deg, #01F695 0.01%, #10D7A8 36.86%, #2D9ACF 100.02%);
+  transition: opacity 0.3s; 
+  color: #fff;
+}
+
+
+.social-links {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.icon-soc {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+a:hover {
+  color: #56CCF2;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+.links a{
+  color: #56CCF2;
+  transition: color 0.3s;
+  margin-bottom: 6px;
+}
+
+h2 {
+  color: #333333;
+  font-size: 36px;
+  line-height: 45px;
+  font-weight: 300;
+  margin-bottom: 24px;
+}
+
+.top-content-wrapper {
+  padding-left: 90px;
+  padding-right: 50px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url(../img/backround-content-bottom.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top-content-wrapper p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #828282;
+}
+
+.date {
+  font-size: 60px;
+  font-weight: 200;
+}
+
+.month {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.days {
+  line-height: 40px;
+}
+
+.title-link {
+  color: #005389;
+  font-size: 20px;
+  max-width: 500px;
+  transition: color 0.3s;
+}
+
+.place {
+  padding-top: 6px;
+  background: url(../img/geo-icon-black.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 14px;
+  padding-top: 2px;
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.submit-wrapper {
+  background-image: url(../img/background-form.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #4B81A4;
+}
+
+.submit-wrapper p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  margin-right: 12px;
+}
+
+input {
+  max-width: 170px;
+  padding: 12px 6px;
+  margin-bottom: 10px;
+  color: #fff;
+  border-radius: 3px;
+  background: transparent;
+  border: 1px solid #E0E0E0;
+}
+
+input::placeholder {
+  color: #fff;
+  font-weight: 400;
+}
+
+.submit-button {
+  max-width: 170px;
+  background: linear-gradient(90deg, #01F695 0.01%, #10D7A8 36.86%, #2D9ACF 100.02%);
+  color: #fff;
+  border-radius: 3px;
+  height: 40px;
+  transition: opacity 0.3s;
+  border: none;
+}
+
+.submit-button:hover {
+  background: linear-gradient(-90deg, #01F695 0.01%, #10D7A8 36.86%, #2D9ACF 100.02%);
+  transition: opacity 0.3s; 
+  color: #fff;
+}
+
+.notes-wrapper {
+  margin: 60px 60px 60px 90px;
+}
+
+.notes-title {
+  color: #333333;
+  margin-bottom: 24px;
+}
+
+.notes-wrapper p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #828282;
+  font-style: italic;
 }
