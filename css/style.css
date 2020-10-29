@@ -94,10 +94,6 @@ h2 {
 }
 
 .top-content-wrapper {
-  padding-left: 90px;
-  padding-right: 50px;
-  padding-top: 60px;
-  padding-bottom: 60px;
   background-image: url(../img/backround-content-bottom.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -107,6 +103,14 @@ h2 {
   font-size: 16px;
   line-height: 24px;
   color: #828282;
+}
+
+.date-wrapper {
+  padding: 42px 0 42px 50px;
+}
+
+.event-wrapper {
+  padding: 42px 24px 42px 50px;
 }
 
 .date {
@@ -148,7 +152,7 @@ h2 {
   background-color: #4B81A4;
 }
 
-.submit-wrapper p {
+.submit-par {
   color: #fff;
   font-size: 24px;
   font-weight: 300;
@@ -196,4 +200,23 @@ input::placeholder {
   line-height: 24px;
   color: #828282;
   font-style: italic;
+}
+
+@media (max-width: 426px) {
+  .date {
+    font-size: 32px;
+    padding-right: 6px;
+  }
+
+  .asside {
+    background-size: cover;
+  }
+
+  .date-wrapper {
+    padding-bottom: 0;
+  }
+
+  .event-wrapper {
+    padding: 0 32px 32px 50px;
+  }
 }
