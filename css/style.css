@@ -107,6 +107,7 @@ h2 {
 
 .date-wrapper {
   padding: 42px 0 42px 50px;
+  min-width: 230px;
 }
 
 .event-wrapper {
