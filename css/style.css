@@ -41,22 +41,30 @@ li {
   background-position: left center;
 }
 
-.register-button {
+.register-button-asside {
   max-width: 240px;
   height: 48px;
-  background: linear-gradient(90deg, #01F695 0.01%, #10D7A8 36.86%, #2D9ACF 100.02%);
+}
+
+.register-button {
+  background: linear-gradient(90deg, #01F695 0.01%, #10D7A8 22.86%, #2D9ACF 51.02%, #10D7A8 72.86%, #01F695 100.01%);
+  background-size: 200%;
+  background-position: left;
   color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: 3px;
   border: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: opacity 0.3s;
+  transition: background-position 0.3s ease-in-out;
 }
 
 .register-button:hover {
-  background: linear-gradient(-90deg, #01F695 0.01%, #10D7A8 36.86%, #2D9ACF 100.02%);
-  transition: opacity 0.3s; 
+  background: linear-gradient(90deg, #01F695 0.01%, #10D7A8 22.86%, #2D9ACF 51.02%, #10D7A8 72.86%, #01F695 100.01%);
+  background-position: right;
+  background-size: 200%;
+  transition: background-position 0.3s ease-in-out;
   color: #fff;
 }
 
@@ -79,7 +87,7 @@ a:hover {
   text-decoration: none;
 }
 
-.links a{
+.links a {
   color: #56CCF2;
   transition: color 0.3s;
   margin-bottom: 6px;
@@ -175,20 +183,8 @@ input::placeholder {
   font-weight: 400;
 }
 
-.submit-button {
+.register-button-main {
   max-width: 170px;
-  background: linear-gradient(90deg, #01F695 0.01%, #10D7A8 36.86%, #2D9ACF 100.02%);
-  color: #fff;
-  border-radius: 3px;
-  height: 40px;
-  transition: opacity 0.3s;
-  border: none;
-}
-
-.submit-button:hover {
-  background: linear-gradient(-90deg, #01F695 0.01%, #10D7A8 36.86%, #2D9ACF 100.02%);
-  transition: opacity 0.3s; 
-  color: #fff;
 }
 
 .notes-title {
